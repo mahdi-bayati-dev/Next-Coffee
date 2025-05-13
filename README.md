@@ -1,40 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+حتماً! این یک نمونه فایل `README.md` حرفه‌ای و ساده برای پروژه تو هست که شامل عکس، توضیحات و راه‌اندازی پروژه می‌باشد:
 
-## Getting Started
+---
 
-First, run the development server:
+````markdown
+# 🍵 Next-Coffee - فروشگاه آنلاین قهوه
+
+![Next Coffee Preview](./public/img/Screenshot.png)
+
+Next-Coffee یک پروژه فروشگاه آنلاین ساده است که با استفاده از **Next.js** ساخته شده و از **JSON Server** برای شبیه‌سازی API استفاده می‌کند.
+
+---
+
+## 🧰 تکنولوژی‌های استفاده‌شده
+
+- [Next.js](https://nextjs.org/) – فریم‌ورک React برای ساخت اپلیکیشن‌های SSR و SSG
+- [React](https://reactjs.org/) – کتابخانه اصلی برای ساخت رابط کاربری
+- [JSON Server](https://github.com/typicode/json-server) – سرور ساختگی برای داده‌های RESTful
+
+---
+
+## 📦 نصب و اجرا
+
+ابتدا پکیج‌ها را نصب کنید:
+
+```bash
+npm install
+````
+
+### اجرای سرور API ساختگی (JSON Server)
+
+برای اجرای سرور داده‌ها (مبتنی بر `db.json`):
+
+```bash
+npm run server
+```
+
+سرور روی آدرس زیر در دسترس خواهد بود:
+
+```
+http://localhost:3001
+```
+
+### اجرای پروژه اصلی
+
+برای اجرای پروژه Next.js:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+وب‌سایت روی آدرس زیر قابل مشاهده است:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📁 ساختار پروژه (خلاصه)
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+.
+├── components/         # کامپوننت‌های قابل استفاده مجدد
+├── pages/              # صفحات پروژه
+├── public/             # فایل‌های استاتیک (تصاویر و ...)
+├── data/db.json        # دیتای ساختگی برای API
+├── styles/             # استایل‌های سفارشی
+├── next.config.mjs     # پیکربندی Next.js
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ ویژگی‌ها
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+* طراحی مدرن و ریسپانسیو با Tailwind
+* صفحه معرفی محصولات، خدمات، تماس با ما، درباره ما و ...
+* کامنت و نظرات برای محصولات
+* مصرف API برای دریافت داده‌ها
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 👨‍💻 توسعه‌دهنده
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Mahdi Bayati
+[GitHub: mahdi-bayati-dev](https://github.com/mahdi-bayati-dev)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+
+> 📝 اگر پروژه بهت کمک کرد، ستاره‌اش فراموش نشه ⭐
+
+```
+
+---
+
+آیا می‌خوای این رو به صورت فایل `README.md` آماده کنم که راحت اضافه‌اش کنی به پروژه؟ یا نیاز به ترجمه انگلیسی هم داری؟
+```
